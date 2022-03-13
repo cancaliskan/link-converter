@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LinkConverter.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:LinkConverter.WebApi.Controllers.ConvertedLinkController.Get">
+            <summary>
+            Gets the list of all converted links.
+            </summary>
+            <returns>The list of converted links.</returns>
+        </member>
+    </members>
+</doc>
