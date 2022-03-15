@@ -30,6 +30,7 @@ namespace LinkConverter.Persistence.Repositories
 
         public async Task AddAsync(T entity)
         {
+            entity.Id = Guid.NewGuid();
             await _context.Set<T>().AddAsync(entity);
         }
 
